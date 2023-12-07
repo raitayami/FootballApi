@@ -12,6 +12,8 @@
 		A3ADAB382B223ECA00587AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3ADAB372B223ECA00587AD9 /* Assets.xcassets */; };
 		A3ADAB3B2B223ECA00587AD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3ADAB3A2B223ECA00587AD9 /* Preview Assets.xcassets */; };
 		A3ADAB472B22413400587AD9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADAB462B22413400587AD9 /* DataService.swift */; };
+		A3ADAB492B22553200587AD9 /* RealMadridUpcomingMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADAB482B22553200587AD9 /* RealMadridUpcomingMatches.swift */; };
+		A3ADAB4B2B2257BF00587AD9 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADAB4A2B2257BF00587AD9 /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A3ADAB412B223F6B00587AD9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		A3ADAB422B223F9100587AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A3ADAB462B22413400587AD9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A3ADAB482B22553200587AD9 /* RealMadridUpcomingMatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMadridUpcomingMatches.swift; sourceTree = "<group>"; };
+		A3ADAB4A2B2257BF00587AD9 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A3ADAB352B223EC500587AD9 /* ContentView.swift */,
+				A3ADAB482B22553200587AD9 /* RealMadridUpcomingMatches.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 		A3ADAB452B22411400587AD9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A3ADAB4A2B2257BF00587AD9 /* About.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,8 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3ADAB4B2B2257BF00587AD9 /* About.swift in Sources */,
 				A3ADAB472B22413400587AD9 /* DataService.swift in Sources */,
 				A3ADAB362B223EC500587AD9 /* ContentView.swift in Sources */,
+				A3ADAB492B22553200587AD9 /* RealMadridUpcomingMatches.swift in Sources */,
 				A3ADAB342B223EC500587AD9 /* FootballersApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
