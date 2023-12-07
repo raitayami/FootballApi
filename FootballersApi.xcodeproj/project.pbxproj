@@ -11,6 +11,7 @@
 		A3ADAB362B223EC500587AD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADAB352B223EC500587AD9 /* ContentView.swift */; };
 		A3ADAB382B223ECA00587AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3ADAB372B223ECA00587AD9 /* Assets.xcassets */; };
 		A3ADAB3B2B223ECA00587AD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3ADAB3A2B223ECA00587AD9 /* Preview Assets.xcassets */; };
+		A3ADAB472B22413400587AD9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADAB462B22413400587AD9 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A3ADAB3A2B223ECA00587AD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3ADAB412B223F6B00587AD9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		A3ADAB422B223F9100587AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A3ADAB462B22413400587AD9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,14 @@
 		A3ADAB322B223EC500587AD9 /* FootballersApi */ = {
 			isa = PBXGroup;
 			children = (
+				A3ADAB452B22411400587AD9 /* Model */,
+				A3ADAB442B22410F00587AD9 /* View */,
+				A3ADAB432B22410900587AD9 /* ViewModel */,
+				A3ADAB412B223F6B00587AD9 /* Config.xcconfig */,
 				A3ADAB422B223F9100587AD9 /* Info.plist */,
 				A3ADAB332B223EC500587AD9 /* FootballersApiApp.swift */,
-				A3ADAB352B223EC500587AD9 /* ContentView.swift */,
 				A3ADAB372B223ECA00587AD9 /* Assets.xcassets */,
 				A3ADAB392B223ECA00587AD9 /* Preview Content */,
-				A3ADAB412B223F6B00587AD9 /* Config.xcconfig */,
 			);
 			path = FootballersApi;
 			sourceTree = "<group>";
@@ -69,6 +73,29 @@
 				A3ADAB3A2B223ECA00587AD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3ADAB432B22410900587AD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3ADAB462B22413400587AD9 /* DataService.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3ADAB442B22410F00587AD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3ADAB352B223EC500587AD9 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3ADAB452B22411400587AD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3ADAB472B22413400587AD9 /* DataService.swift in Sources */,
 				A3ADAB362B223EC500587AD9 /* ContentView.swift in Sources */,
 				A3ADAB342B223EC500587AD9 /* FootballersApiApp.swift in Sources */,
 			);
