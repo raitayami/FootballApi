@@ -19,6 +19,8 @@
 		A3ADAB352B223EC500587AD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3ADAB372B223ECA00587AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3ADAB3A2B223ECA00587AD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3ADAB412B223F6B00587AD9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		A3ADAB422B223F9100587AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,12 @@
 		A3ADAB322B223EC500587AD9 /* FootballersApi */ = {
 			isa = PBXGroup;
 			children = (
+				A3ADAB422B223F9100587AD9 /* Info.plist */,
 				A3ADAB332B223EC500587AD9 /* FootballersApiApp.swift */,
 				A3ADAB352B223EC500587AD9 /* ContentView.swift */,
 				A3ADAB372B223ECA00587AD9 /* Assets.xcassets */,
 				A3ADAB392B223ECA00587AD9 /* Preview Content */,
+				A3ADAB412B223F6B00587AD9 /* Config.xcconfig */,
 			);
 			path = FootballersApi;
 			sourceTree = "<group>";
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		A3ADAB3C2B223ECA00587AD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3ADAB412B223F6B00587AD9 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +215,7 @@
 		};
 		A3ADAB3D2B223ECA00587AD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3ADAB412B223F6B00587AD9 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = 33KG33NLFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootballersApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = 33KG33NLFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootballersApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
